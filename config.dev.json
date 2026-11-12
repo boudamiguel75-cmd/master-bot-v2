@@ -142,8 +142,8 @@
     "enabled": true,
     "name": "Master",
     "author": "Master Charbel",
-    "provider": "mistral",
-    "fallbackProviders": ["groq", "openrouter", "gemini", "deepseek", "openai", "grok"],
+    "provider": "groq",
+    "fallbackProviders": ["mistral", "openrouter", "gemini", "deepseek", "openai", "grok"],
     "autoReply": {
       "enabled": true,
       "privateOnly": false,
@@ -151,11 +151,11 @@
     },
     "providers": {
       "mistral": { "apiKey": "", "model": "mistral-small-latest" },
-      "openrouter": { "apiKey": "", "model": "deepseek/deepseek-chat" },
-      "gemini": { "apiKey": "", "model": "gemini-1.5-flash" },
+      "openrouter": { "apiKey": "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", "model": "deepseek/deepseek-chat" },
+      "gemini": { "apiKey": "AQ.Ab8RN6LE9NcSN0kncRUPH02ZxEAEUb6tLWHS2Rqr2bR-XAUfAg", "model": "gemini-1.5-flash" },
       "deepseek": { "apiKey": "", "model": "deepseek-chat" },
       "openai": { "apiKey": "", "model": "gpt-4o-mini" },
-      "groq": { "apiKey": "", "model": "llama-3.3-70b-versatile" },
+      "groq": { "apiKey": "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", "model": "llama-3.3-70b-versatile" },
       "grok": { "apiKey": "", "model": "grok-2-latest" },
       "ollama": { "baseUrl": "http://localhost:11434", "model": "llama3.2" }
     },
